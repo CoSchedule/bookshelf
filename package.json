@@ -1,5 +1,5 @@
 {
-  "name": "bookshelf",
+  "name": "@coschedule/bookshelf",
   "version": "1.2.0",
   "description": "A lightweight ORM for PostgreSQL, MySQL, and SQLite3",
   "main": "bookshelf.js",
@@ -12,10 +12,10 @@
     "postpublish": "./scripts/postpublish.sh"
   },
   "homepage": "https://bookshelfjs.org",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bookshelf/bookshelf.git"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
+  "repository": "git://github.com/CoSchedule/bookshelf.git",
   "keywords": [
     "orm",
     "mysql",
