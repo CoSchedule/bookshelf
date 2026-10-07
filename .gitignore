@@ -7,3 +7,10 @@ tmp
 coverage/
 .jsdoc-temp/
 .nyc_output
+
+node_modules/
+.env
+.env.local
+.env.*.local
+*.log
+.playwright-mcp/
